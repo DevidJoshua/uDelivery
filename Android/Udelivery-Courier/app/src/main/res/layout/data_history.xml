@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_gravity="center_vertical"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/iv_cust_profilePic"
+            android:src="@drawable/ic_launcher_background"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Nama"
+                android:id="@+id/tv_list_cust"/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="15 Mei 2019"
+                android:id="@+id/tv_list_date"/>
+            <TextView
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Status"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:id="@+id/tv_list_status"
+                android:background="#383737"/>
+        </LinearLayout>
+</LinearLayout>

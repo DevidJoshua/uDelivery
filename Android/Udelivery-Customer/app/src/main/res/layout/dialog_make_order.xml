@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6B6A6A"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:src="@drawable/ic_location_on_yellow_24dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <EditText
+            android:minLines="1"
+            android:maxLines="1"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:id="@+id/et_pickup"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:backgroundTint="@color/colorPrimary"
+            android:hint="Enter Your Pickup Location"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColorHint="#BEBEBE"/>
+        <Button
+            android:id="@+id/btn_pickup"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Enter"
+            android:textSize="30dp"/>
+        <ScrollView
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:background="#777"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_pickup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </android.support.v7.widget.RecyclerView>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

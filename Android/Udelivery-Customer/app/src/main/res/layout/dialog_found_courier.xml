@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#6B6A6A">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/iv_cour_profile"
+        android:src="@drawable/ic_launcher_background"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#6B6A6A"
+        android:layout_marginTop="20dp"
+        android:textSize="35dp"
+        android:text="Alo"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:textAlignment="center"
+        android:id="@+id/tv_cour_name"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:text="Astrea (DB1223AC)"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/tv_cour_vehicle"
+        android:layout_marginBottom="20dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_vertical">
+        <RelativeLayout
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/iv_phone"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_local_yellow24dp"/>
+            <TextView
+                android:layout_toRightOf="@+id/iv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:text="xxxxxxxxxxxx"
+                android:textSize="35dp"
+                android:id="@+id/tv_phone_cour"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="20dp"
+    android:text="Confirm"
+    android:textSize="30dp"
+    android:id="@+id/btn_close_cour"/>
+</LinearLayout>

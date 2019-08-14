@@ -1,0 +1,9 @@
+INI BELUM JADI, YANG PASTI SOBOLEH KASE TUNJUNG PROGRESS
+PASIKAN PAKE XAMPP 5.6.8
+-Upload dulu depe database ke xampp(database server) Pastikan dp nama databasenya: db_udelivery
+-Copy folder uDelivery yang ada di JSON/uDelivery ke folder htdocs... pastikan
+-Baru di dalam folder android ada 2 project satu tu courier punya satu customer punya
+ (PASTIKAN SO ADA API 28 di ANDROID STUDIO DENG FOR MO TESTING HP PAKE API 19 -KEBETULAN PETRA PUNYA JADI)
+-HUBUNGKAN JARINGAN YANG SAMA, BARU PRIKSA IP ADDRESS LAPTOP YANG M JADI AKANG SERVER BARU BUKA MASING2 PROJECT 
+ KONG ISI DI
+ (Package (JSON) -> Operation.java(ganti tu IPADDRESS DI URL DENG IP ADDRESS LAPTOP) kalu nda tau,cari tau.

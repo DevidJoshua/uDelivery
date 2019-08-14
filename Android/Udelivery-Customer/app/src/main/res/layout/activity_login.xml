@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Login"
+    android:background="@color/colorPrimary"
+    android:id="@+id/ll_main">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Udelivery"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:textColor="#FFFF"
+        android:layout_margin="20dp"
+        android:background="@color/gray"/>
+    <EditText
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginHorizontal="10dp"
+        android:hint=" Input your Email here"
+        android:textSize="17dp"
+        android:textColor="#000"
+        android:textColorHint="@color/gray"
+        android:layout_marginTop="200dp"
+        />
+    <EditText
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="10dp"
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:hint=" Input your Password here"
+        android:textSize="17dp"
+        android:textColor="#000"
+        android:textColorHint="@color/gray"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="30dp"/>
+</LinearLayout>
